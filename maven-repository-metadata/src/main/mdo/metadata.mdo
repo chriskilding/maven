@@ -66,6 +66,13 @@ under the License.
           <description>The version that this directory represents, if any. It is used for artifact snapshots only.</description>
         </field>
         <field>
+          <name>deprecated</name>
+          <version>1.0.0+</version>
+          <type>Boolean</type>
+          <description>The deprecation status of the artifact. If true, the artifact is deprecated. If false or absent, the artifact is not deprecated.</description>
+          <required>false</required>
+        </field>
+        <field>
           <name>versioning</name>
           <version>1.0.0+</version>
           <association>
